@@ -11,7 +11,9 @@ required_packages <- c(
   "gstat",
   "spatstat",
   "tidyverse",
-  "here"
+  "here",
+  "rstac",
+  "sits"
 )
 
 # Check installed packages

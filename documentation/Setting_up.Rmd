@@ -1,0 +1,31 @@
+---
+title: "TerraClass_mosaic"
+author: "Marina Rodrigues"
+date: "2026-11-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setting up
+This document describes the procedures taken to setup basic requirements in R for running models and spatial and statistical analysis for the Land Surface group of MONAN - INPE.
+
+
+```{r setup_2, message=FALSE}
+
+# Install and load packages
+source(here::here("scripts", "Setup_R.R"))
+
+# Define data directories
+data_dir <- here::here("data")
+
+raw_dir <- file.path(data_dir, "raw")
+processed_dir <- file.path(data_dir, "processed")
+output_dir <- file.path(data_dir, "output")
+
+
+```
+
+

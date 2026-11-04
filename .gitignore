@@ -1,0 +1,21 @@
+# Data files
+/data/raw/
+/data/processed/
+/data/output/
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+
+# Generated documents
+*.html
+*.pdf
+*.docx
+
+# Temporary files
+*.tmp
+*.log

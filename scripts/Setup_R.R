@@ -13,7 +13,8 @@ required_packages <- c(
   "tidyverse",
   "here",
   "rstac",
-  "sits"
+  "sits",
+  "mapview"
 )
 
 # Check installed packages
